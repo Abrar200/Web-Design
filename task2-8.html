@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Webpage with Styled Text</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .strikethrough {
+            text-decoration: line-through;
+        }
+
+        .small-green {
+            font-size: small;
+            color: green;
+        }
+
+        .orange-highlight {
+            background-color: orange;
+        }
+
+        .emphasized {
+            font-style: italic;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #ccc;
+            margin: 20px 0;
+        }
+
+        sup {
+            font-size: smaller;
+            vertical-align: super;
+        }
+
+        pre {
+            font-family: monospace;
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This centered heading is <span class="emphasized">emphasised just here</span></h1>
+
+    <p>This is a <span class="strikethrough">normal paragraph</span> paragraph of great importance!</p>
+
+    <p>Another paragraph with some text that goes from <strong>bold</strong> to <strong><em>bold and
+                italic</em></strong> to <em>just italic</em>.</p>
+
+    <hr>
+
+    <p>This third paragraph spans multiple lines,<br>
+        And has a link to http://nyan.cat<sup><a href="http://nyan.cat">HERE</a></sup><br>
+        It also has some <span class="small-green">small, green text</span> and some <span
+            class="orange-highlight">orange highlighted text</span>.</p>
+
+    <pre>Mathematical formulas work well as preformatted text, like this one:
+Log<sub>b</sub>x = Log<sub>a</sub>x/Log<sub>a</sub>b</pre>
+</body>
+
+</html>
